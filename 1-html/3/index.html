@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- HTML in your document's head -->
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid;
+        }
+    </style>
+
+</head>
+
+<body>
+    <table>
+        <caption>Horario de Clases</caption>
+        <thead>
+            <tr>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mates</td>
+                <td colspan="3" rowspan="2">
+                    <p> Dibujo </p> <br>
+                </td>
+                <td rowspan="3">Historia</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Fisica</td>
+            </tr>
+            <tr>
+                <td>Descanso</td>
+                <td>Descanso</td>
+                <td>Descanso</td>
+            </tr>
+            <tr>
+                <td>Gimnasia</td>
+                <td>Futbolin</td>
+                <td>Gimnasia</td>
+                <td>Mates</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
