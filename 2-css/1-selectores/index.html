@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1 id="title">Selectores de CSS</h1>
+    <div class="styled-children">
+        <h2>Children selector</h2>
+        <span class="child">H</span>
+        <span class="child">o</span>
+        <span class="child">l</span>
+        <span class="child">a</span>
+    </div>
+
+    <div class="styled-direct-children">
+        <h2>Direct children selector "&gt;"</h2>
+        <span class="child">Hola</span>
+        <span>
+            <span>Mundo</span>
+        </span>
+    </div>
+
+
+    <div class="styled-direct-childs">
+        <h2>Direct sibling selector "+"</h2>
+        <span class="styled-sibling">Hola</span>
+        <span class="sibling">Mundo</span>
+    </div>
+
+
+    <div class="styled-direct-childs">
+        <h2>Sequential sibling selector</h2>
+
+        <span class="styled-sibling">Lorem</span>
+        <span class="sequential-sibling">ipsum</span>
+        <span class="sequential-sibling">dolor</span>
+        <span class="sequential-sibling">sit</span>
+        <span class="sequential-sibling">amet</span>
+    </div>
+
+    <div style="display: flex; flex-direction: column; align-items: start; gap: 0.25rem; margin-top: 1rem">
+        <input type="text" name="text" id="text" value="Hola Mundo">
+        <input type="password" name="" id="password" value="Hola Mundo">
+    </div>
+
+    <p class="lightly-specific" id="very-specific">Hola Mundo</p>
+
+</body>
+
+</html>

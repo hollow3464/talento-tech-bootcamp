@@ -1,0 +1,55 @@
+:root {
+  font-family: Inter, sans-serif;
+}
+
+#title {
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1.50rem;
+}
+
+.styled-children .child {
+  color: blue;
+}
+
+.styled-direct-children > .child {
+  color: lightblue;
+}
+
+.styled-sibling {
+    font-weight: 600;
+}
+
+.styled-sibling + .sibling {
+  color: darkblue;
+}
+
+.styled-sibling ~ .sequential-sibling {
+  color: gray;
+}
+
+input {
+  border: 1px solid blue;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+}
+
+input[type="text"] {
+  border: 1px solid green;
+}
+
+
+p {
+  color: lightblue;
+}
+
+.lightly-specific {
+  color: blue;
+}
+
+#very-specific {
+  color: darkblue;
+}
+
