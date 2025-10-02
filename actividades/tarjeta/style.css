@@ -49,6 +49,15 @@ header {
   background-color: var(--color-silver-tree-800);
   color: var(--color-silver-tree-200);
   text-align: center;
+
+  & h1 {
+    font-size: calc(var(--size) * 2);
+  }
+
+  & h2 {
+    font-size: calc(var(--size) * 1.25);
+    font-weight: 500;
+  }
 }
 
 main {
@@ -61,7 +70,7 @@ main {
   padding: calc(var(--size) * 2);
   position: relative;
   background-color: var(--color-silver-tree-100);
-  border: 4px dashed var(--color-silver-tree-400);
+  border: 4px dashed var(--color-silver-tree-600);
   border-radius: calc(var(--size) * 2);
   max-width: calc(var(--size) * 48);
   margin: auto;
